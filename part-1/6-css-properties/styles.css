@@ -1,1 +1,18 @@
 /* Add your CSS code below */
+a:any-link {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+.message__time {
+  font-size: 0.9rem;
+}
+.message.message--unread {
+  border-left: solid 4px blue;
+}
+.message__time.message__time--old {
+  opacity: 50%;
+}
+.messages {
+  margin: 5px;
+}
