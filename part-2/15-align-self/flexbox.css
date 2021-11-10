@@ -3,3 +3,60 @@
 }
 
 /* Add your own CSS code below */
+
+.countries.countries--tall.countries--first > .country.country--ethiopia {
+  align-self: end;
+}
+
+.countries.countries--tall.countries--second > .country.country--ethiopia {
+  align-self: end;
+}
+.countries.countries--tall.countries--second > .country.country--brazil {
+  align-self: center;
+}
+.countries.countries--tall.countries--second > .country.country--croatia {
+  align-self: center;
+}
+.countries.countries--tall.countries--second > .country.country--laos {
+  align-self: center;
+}
+.countries.countries--tall.countries--second > .country.country--uganda {
+  align-self: center;
+}
+
+.countries.countries--tall.countries--third > .country.country--brazil {
+  align-self: start;
+}
+.countries.countries--tall.countries--third > .country.country--croatia {
+  align-self: end;
+}
+.countries.countries--tall.countries--third > .country.country--ethiopia {
+  align-self: end;
+}
+.countries.countries--tall.countries--third > .country.country--laos {
+  align-self: end;
+}
+.countries.countries--tall.countries--third > .country.country--uganda {
+  align-self: start;
+}
+
+.countries.countries--tall.countries--fourth > .country.country--brazil {
+  align-self: start;
+}
+.countries.countries--tall.countries--fourth > .country.country.country--croatia {
+  align-self: start;
+}
+.countries.countries--tall.countries--fourth > .country.country.country--ethiopia {
+  align-self: start;
+}
+.countries.countries--tall.countries--fourth > .country.country.country--laos {
+  align-self: start;
+}
+.countries.countries--tall.countries--fourth > .country.country--uganda {
+  align-self: center;
+}
+
+.countries.countries--tall.countries--fourth {
+  display: flex;
+  flex-direction: column;
+}
